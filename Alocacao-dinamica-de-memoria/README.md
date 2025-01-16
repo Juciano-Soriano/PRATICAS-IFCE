@@ -4,16 +4,16 @@ Questão 1 - Aloque dinamicamente uma matriz, receba os seus elementos via tecla
 A matriz transposta de M, trata-se de uma matriz obtida ao trocar de posição as linhas e colunas da matriz M. Logo, a primeira linha de M se transforma na primeira coluna de Mt, a segunda linha de M na segunda coluna de Mt, e assim sucessivamente.
 
 Exemplo:
+<pre>
+     1   2
+M =  3   4
+     5   6
 
 
-         1   2
-M =   3   4
-         5   6
 
-
-
-Mt = 1   3   5
-         2   4   6
+Mt =  1   3   5
+      2   4   6
+</pre>
 
 Onde, M é a matriz original (informada) e Mt é a matriz transposta.
 
