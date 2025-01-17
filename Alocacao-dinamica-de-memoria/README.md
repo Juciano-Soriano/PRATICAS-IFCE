@@ -1,7 +1,14 @@
-Questão 1 - Aloque dinamicamente uma matriz, receba os seus elementos via teclado e calcule a matriz transposta.
+# 🧮 Questão 1: Matriz Transposta
 
+**Descrição:**  
+Implemente um programa que aloque dinamicamente uma matriz, receba seus elementos via teclado e calcule a **matriz transposta**.  
 
-A matriz transposta de M, trata-se de uma matriz obtida ao trocar de posição as linhas e colunas da matriz M. Logo, a primeira linha de M se transforma na primeira coluna de Mt, a segunda linha de M na segunda coluna de Mt, e assim sucessivamente.
+A matriz transposta de \( M \) é obtida ao trocar as linhas pelas colunas. Ou seja, a primeira linha de \( M \) se torna a primeira coluna de \( M^T \), a segunda linha de \( M \) se torna a segunda coluna de \( M^T \), e assim por diante.
+
+### 📊 Exemplo:
+
+#### Entrada (Matriz \( M \)):  
+
 
 Exemplo:
 <pre>
@@ -15,11 +22,22 @@ Mt =  1   3   5
       2   4   6
 </pre>
 
-Onde, M é a matriz original (informada) e Mt é a matriz transposta.
+#### 🕵🏽‍♂️ Onde, M é a matriz original (informada) e Mt é a matriz transposta.
 
-Questão 2 - Implemente uma função que determine se uma matriz, informada pelo usuário e alocada dinamicamente, é simétrica quadrada ou não.
 
-Uma matriz M é simétrica quando a sua matriz transposta é igual à própria matriz M. Ou seja, M = Mt. Vale ressaltar que uma matriz simétrica sempre será uma matriz quadrada, ou seja, tem um formato n x n (mesmo número de linhas e colunas).
+---
+
+# 🔍 Questão 2: Verificar Matriz Simétrica
+
+**Descrição:**  
+Implemente uma função que determine se uma matriz informada pelo usuário, alocada dinamicamente, é **simétrica** ou não.
+
+Uma matriz \( M \) é considerada **simétrica** quando sua transposta é igual à própria matriz (\( M = M^T \)). Além disso, uma matriz simétrica é sempre **quadrada**, ou seja, possui o mesmo número de linhas e colunas.
+
+### 📊 Exemplo:
+
+#### Entrada (Matriz \( M \)):  
+
 
 Exemplo:
 <pre>
@@ -31,5 +49,5 @@ M =      2   2   0
 Mt =      2   2   0
           4   0   3
 </pre>
-
-Onde, M é quadrada e M = Mt.
+ ---
+🦉📐 Onde, M é quadrada e M = Mt.
